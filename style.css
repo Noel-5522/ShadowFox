@@ -1,0 +1,129 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+  background-color: #faf9ff;
+  color: #333;
+  line-height: 1.6;
+  background-image: url('images/mountains-bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.background-wrapper {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding-top: 60px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 24px;
+  color: #6f42c1 !important;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: #4b4b4b !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #6f42c1 !important;
+}
+
+.hero-section {
+  background: linear-gradient(to right, #ede7f6cc, #f3e5f5cc);
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.hero-section h1 {
+  color: #6f42c1;
+  font-size: 3rem;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  color: #555;
+}
+
+section h2 {
+  font-weight: bold;
+  color: #6f42c1;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #6f42c1;
+  color: white;
+}
+
+a {
+  color: #6f42c1;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #512da8;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.03);
+}
+
+.shadow {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#resume .border {
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+#resume ul {
+  list-style-type: square;
+  padding-left: 1.2rem;
+}
+
+.bg-light {
+  background-color: #f8f6fc !important;
+}
+
+.btn-primary {
+  background-color: #6f42c1;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #512da8;
+}
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2.25rem;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .rounded-circle {
+    width: 150px;
+    height: 150px;
+  }
+}
